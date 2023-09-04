@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Inter:wght@200;400&family=Poppins&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&family=Inter:wght@200;400&family=Poppins&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+}
+.navbar{
+    height: 6vh;
+    width: 100vw;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-section{
+    padding-left: 10px;
+    display: inherit;
+}
+#search-input{
+    width: 400px;
+    height: 40px;
+    background-color: #121212;
+    border: none;
+    padding-left:10px;
+    color: white;
+}
+.searchbox{
+    display: inherit;
+}
+.mic{
+    margin-left: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.searchbutton{
+    cursor: pointer;
+}
+.mic img{
+    height:20px;
+    width: 20px;
+}
+.profile-section{
+    display: inherit;
+    padding-right: 15px;
+}
+.profile-section img{
+    padding-inline: 15px;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+}
+
+/* Track (the background) */
+::-webkit-scrollbar-track {
+    background: black; /* Background color of the scrollbar track */
+}
+
+/* Handle (the draggable part) */
+::-webkit-scrollbar-thumb {
+    background: #3d3d3d; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar thumb on hover */
+}
+
+.container{
+    background-color: black;
+    display: flex;
+    width: 100vw;
+    height: 94vh;
+    overflow-y: scroll;
+}
+.video-container{
+    width: 75vw;
+    display: inherit;
+    flex-direction: column;
+    padding: 50px 50px;
+    /* border: 1px solid blue; */
+    justify-content: flex-start;
+    align-items: center ;
+}
+.video-suggestions-container{
+    width: 25vw;
+    /* border: 1px solid white; */
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 50px;
+}
+.comment {
+    box-shadow: 2px 2px 4px rgba(202, 200, 200, 0.531);
+    padding: 10px 20px;
+    color: white;
+}
+  
+.author-profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+}
+
+.video{
+    display: flex;
+    width: 420px;
+    height: 170px;
+    /* border: 1px solid blue; */
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+.vid-details{
+    color: white;
+    padding-left: 5px;
+}
+.title{
+    padding-block: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.stats , .channel-name{
+    padding-block: 1px;
+    font-family: 'Roboto', sans-serif;
+}

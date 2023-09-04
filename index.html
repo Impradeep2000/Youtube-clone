@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube-clone</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-section">
+            <img src="./assets/Hamburger.svg" alt="hamburger">
+            <img src="./assets/YT-logo.svg" alt="logo">
+        </div>
+        <div class="searchbox">
+            <div class="searchbox">
+                <input type="search" name="search" id="search-input" placeholder="Search"> 
+            </div>
+            <div class="searchbutton" id="search-button">
+                <img src="./assets/SearchBox-Button.svg" alt="SearchBox-Button">
+            </div>
+            <div class="mic">
+                <img src="./assets/Mic.svg" alt="Mic">
+            </div>
+        </div>
+        <div class="profile-section">
+            <img src="./assets/Video-create.svg" alt="Video-create">
+            <img src="./assets/Apps.svg" alt="Apps">
+            <img src="./assets/Notification.svg" alt="Notification">
+            <img src="./assets/Profile-pic.svg" alt="Profile-pic">
+        </div>
+    </nav>
+    <div class="container">
+        <div class="left-container">
+            <ul>
+                <li><div class="tags"> 
+                    <div><img src="./assets/home-fill.svg" alt="home-fill"></div>
+                    <div><a href="#"> Home</a></div>
+                </div>
+                </li>
+                <li><div class="tags"> 
+                    <div><img src="./assets/explore.svg" alt="explore"></div>
+                    <div><a href="#"> Explore</a></div>
+                </div>
+                </li>
+                <li><div class="tags"> 
+                    <div><img src="./assets/subscriptions.svg" alt="subscriptions"></div>
+                    <div><a href="#"> Subscriptions</a></div>
+                </div>
+                </li>
+            </ul>
+            <div class="border"></div>
+            <ul>
+                <li><div class="tags"> 
+                    <div><img src="./assets/library.svg" alt="library"></div>
+                    <div><a href="#"> Library</a></div>
+                </div>
+                </li>
+                <li><div class="tags"> 
+                    <div><img src="./assets/history-fill.svg" alt="history"></div>
+                    <div><a href="#"> History</a></div>
+                </div>
+                </li>
+                <li><div class="tags"> 
+                    <div><img src="./assets/yourVideos.svg" alt="yourVideos"></div>
+                    <div><a href="#"> Your Videos</a></div>
+                </div>
+                </li>
+                <li><div class="tags"> 
+                    <div><img src="./assets/watchLater.svg" alt="watchLater"></div>
+                    <div><a href="#"> Watch Later</a></div>
+                </div>
+                </li>
+                <li><div class="tags"> 
+                    <div><img src="./assets/liked.svg" alt="liked"></div>
+                    <div><a href="#"> Liked Videos</a></div>
+                </div>
+                </li>
+                <li><div class="tags"> 
+                    <div><img src="./assets/arrowBottom.svg" alt="arrowBottom"></div>
+                    <div><a href="#"> Show More</a></div>
+                </div>
+                </li>
+            </ul>
+            <div class="border"></div>
+            <h4 class="sidebar-headings">SUBSCRIPTIONS</h4>
+            <ul>
+                <li><div class="tags"> 
+                    <div><img class="channel-picture" src="https://picsum.photos/40" alt="Channel-picture"></div>
+                    <div><a href="#"> James Gouse</a></div>
+                </div>
+                </li>
+                <li><div class="tags"> 
+                    <div><img class="channel-picture" src="https://picsum.photos/40" alt="Channel-picture"></div>
+                    <div><a href="#"> Alan Cooper</a></div>
+                </div>
+                </li>
+                <li><div class="tags"> 
+                    <div><img class="channel-picture" src="https://picsum.photos/40" alt="Channel-picture"></div>
+                    <div><a href="#"> Skylar Dias</a></div>
+                </div>
+                </li>
+                <li><div class="tags"> 
+                    <div><img class="channel-picture" src="https://picsum.photos/40" alt="Channel-picture"></div>
+                    <div><a href="#"> Alexis Sears</a></div>
+                </div>
+                </li>
+                <li><div class="tags"> 
+                    <div><img class="channel-picture" src="https://picsum.photos/40" alt="Channel-picture"></div>
+                    <div><a href="#"> Anna White</a></div>
+                </div>
+                </li>
+                <li><div class="tags"> 
+                    <div><img src="./assets/arrowBottom.svg" alt="arrowBottom"></div>
+                    <div><a href="#"> Show More</a></div>
+                </div>
+            </ul>
+        </div>
+        <div class="right-container">
+            <div class="categories">
+                <div class="item"><span>All</span></div>
+                <div class="item"><span>Mixes</span></div>
+                <div class="item"><span>Music</span></div>
+                <div class="item"><span>Gaming</span></div>
+                <div class="item"><span>Gadgets</span></div>
+                <div class="item"><span>Live</span></div>
+                <div class="item"><span>Watched</span></div>
+                <div class="item"><span>Phones</span></div>
+                <div class="item"><span>Laptop</span></div>
+                <div class="item"><span>Cooking</span></div>
+                <div class="item"><span>Comedy</span></div>
+                <div class="item"><span>Celeberity</span></div>
+                <div class="item"><span>Cricket</span></div>
+                <div class="item"><span>Coding</span></div>
+                <div class="item"><span>Religious</span></div>
+                <div class="item"><span>Politics</span></div>
+            </div>
+            <div class="videos-container" id="container">
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/380/155" class="thumbnail-img" alt="vid">
+                    </div>
+                    <div class="bottom-container">
+                        <div class="logo-container">
+                            <img src="https://picsum.photos/50" class="logo" alt="random">
+                        </div>
+                        <div class="video-details">
+                            <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p class="roboto">james Gouse</p>
+                            <p class="roboto">15k views . 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/380/155" alt="vid">
+                    </div>
+                    <div class="bottom-container">
+                        <div class="logo-container">
+                            <img src="https://picsum.photos/50" alt="random">
+                        </div>
+                        <div class="video-details">
+                            <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p>james Gouse</p>
+                            <p>15k views . 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/380/155" alt="vid">
+                    </div>
+                    <div class="bottom-container">
+                        <div class="logo-container">
+                            <img src="https://picsum.photos/50" alt="random">
+                        </div>
+                        <div class="video-details">
+                            <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p>james Gouse</p>
+                            <p>15k views . 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/380/155" alt="vid">
+                    </div>
+                    <div class="bottom-container">
+                        <div class="logo-container">
+                            <img src="https://picsum.photos/50" alt="random">
+                        </div>
+                        <div class="video-details">
+                            <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p>james Gouse</p>
+                            <p>15k views . 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/380/155" alt="vid">
+                    </div>
+                    <div class="bottom-container">
+                        <div class="logo-container">
+                            <img src="https://picsum.photos/50" alt="random">
+                        </div>
+                        <div class="video-details">
+                            <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p>james Gouse</p>
+                            <p>15k views . 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/380/155" alt="vid">
+                    </div>
+                    <div class="bottom-container">
+                        <div class="logo-container">
+                            <img src="https://picsum.photos/50" alt="random">
+                        </div>
+                        <div class="video-details">
+                            <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p>james Gouse</p>
+                            <p>15k views . 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/380/155" alt="vid">
+                    </div>
+                    <div class="bottom-container">
+                        <div class="logo-container">
+                            <img src="https://picsum.photos/50" alt="random">
+                        </div>
+                        <div class="video-details">
+                            <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p>james Gouse</p>
+                            <p>15k views . 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/380/155" alt="vid">
+                    </div>
+                    <div class="bottom-container">
+                        <div class="logo-container">
+                            <img src="https://picsum.photos/50" alt="random">
+                        </div>
+                        <div class="video-details">
+                            <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p>james Gouse</p>
+                            <p>15k views . 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/380/155" alt="vid">
+                    </div>
+                    <div class="bottom-container">
+                        <div class="logo-container">
+                            <img src="https://picsum.photos/50" alt="random">
+                        </div>
+                        <div class="video-details">
+                            <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p>james Gouse</p>
+                            <p>15k views . 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/380/155" alt="vid">
+                    </div>
+                    <div class="bottom-container">
+                        <div class="logo-container">
+                            <img src="https://picsum.photos/50" alt="random">
+                        </div>
+                        <div class="video-details">
+                            <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p>james Gouse</p>
+                            <p>15k views . 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/380/155" alt="vid">
+                    </div>
+                    <div class="bottom-container">
+                        <div class="logo-container">
+                            <img src="https://picsum.photos/50" alt="random">
+                        </div>
+                        <div class="video-details">
+                            <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p>james Gouse</p>
+                            <p>15k views . 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="thumbnail">
+                        <img src="https://picsum.photos/380/155" alt="vid">
+                    </div>
+                    <div class="bottom-container">
+                        <div class="logo-container">
+                            <img src="https://picsum.photos/50" alt="random">
+                        </div>
+                        <div class="video-details">
+                            <p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                            <p>james Gouse</p>
+                            <p>15k views . 1 week ago</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./home.js"></script>
+</body>
+</html>
+
+<!-- API KEY- AIzaSyCU2iWox3vmpH7OD7iRoidj2N0vnw2PQAk -->
